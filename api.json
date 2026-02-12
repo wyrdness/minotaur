@@ -1,0 +1,387 @@
+{
+  "category": "MYTHOLOGICAL_CREATURE",
+
+  "meta": {
+    "version": "1.0.0",
+    "schema_version": "1.0.0",
+    "last_updated": "2026-01-14",
+    "repository": "https://github.com/wyrdness/minotaur",
+    "maintainers": [
+      {
+        "name": "Wyrdness Team",
+        "github": "wyrdness",
+        "role": "maintainer"
+      }
+    ],
+    "license": {
+      "data": "CC0-1.0",
+      "content": "CC-BY-4.0"
+    }
+  },
+
+  "phenomenon": {
+    "id": "minotaur",
+    "name": "Minotaur",
+    "aliases": [
+      {
+        "name": "Asterion",
+        "language": "Greek",
+        "meaning": "Starry one" or "ruler"
+      },
+      {
+        "name": "Asterius",
+        "language": "Greek",
+        "meaning": "Alternative spelling of Asterion"
+      },
+      {
+        "name": "Bull of Minos",
+        "meaning": "Literal translation of Minotaur"
+      }
+    ],
+    "category": "MYTHOLOGICAL_CREATURE",
+    "subcategory": "Monster",
+    "tags": [
+      "greek-mythology",
+      "hybrid",
+      "bull",
+      "labyrinth",
+      "crete",
+      "monster",
+      "man-eater"
+    ],
+    "status": "mythological",
+    "description": {
+      "summary": "A creature with the head of a bull and the body of a man from Greek mythology, imprisoned in the Labyrinth beneath Crete and eventually slain by the hero Theseus.",
+      "full": "The Minotaur was a monstrous hybrid with a bull's head and a human body, born from the union of Pasiphaë (wife of King Minos of Crete) and a sacred bull sent by Poseidon. Named Asterion but commonly called the Minotaur ('Bull of Minos'), the creature was imprisoned in an elaborate maze called the Labyrinth, designed by the master craftsman Daedalus. Every nine years, Athens was forced to send seven youths and seven maidens to Crete as tribute, to be sacrificed to the Minotaur. This continued until the hero Theseus volunteered, entered the Labyrinth with the help of King Minos' daughter Ariadne (who gave him a ball of thread), slew the Minotaur, and escaped by following the thread back. The myth symbolizes the triumph of civilization over bestial nature and has connections to Minoan bull-worship and the palace at Knossos."
+    },
+    "etymology": {
+      "origin": "From Ancient Greek Μῑνώταυρος (Mīnṓtauros), from Μίνως (Mínōs) 'Minos' + ταῦρος (taûros) 'bull'",
+      "meaning": "Bull of Minos",
+      "first_use": "Ancient Greek literature"
+    }
+  },
+
+  "classification": {
+    "taxonomy": {
+      "category": "MYTHOLOGICAL_CREATURE",
+      "type": "Hybrid Monster",
+      "subtype": "Human-Bull",
+      "variant": "Greek/Cretan"
+    },
+    "related_phenomena": [
+      {
+        "id": "theseus",
+        "name": "Theseus",
+        "relationship": "slayer",
+        "description": "Athenian hero who killed the Minotaur"
+      },
+      {
+        "id": "labyrinth",
+        "name": "Labyrinth",
+        "relationship": "prison",
+        "description": "Elaborate maze built to contain the Minotaur"
+      },
+      {
+        "id": "ariadne",
+        "name": "Ariadne",
+        "relationship": "enabler",
+        "description": "Daughter of Minos who helped Theseus"
+      },
+      {
+        "id": "centaur",
+        "name": "Centaur",
+        "relationship": "similar",
+        "description": "Another Greek human-animal hybrid"
+      }
+    ]
+  },
+
+  "characteristics": {
+    "physical": {
+      "appearance": {
+        "description": "Human body with the head of a bull",
+        "confidence": "mythological"
+      },
+      "features": [
+        {
+          "feature": "Bull's head",
+          "description": "Complete bovine head with horns",
+          "frequency": "always"
+        },
+        {
+          "feature": "Human body",
+          "description": "Muscular human torso, arms, and legs",
+          "frequency": "always"
+        },
+        {
+          "feature": "Enormous strength",
+          "description": "Superhuman power",
+          "frequency": "always"
+        },
+        {
+          "feature": "Large size",
+          "description": "Significantly larger than normal humans",
+          "frequency": "common"
+        }
+      ],
+      "morphology": "Hybrid creature combining human body with complete bull's head. Typically depicted as extremely muscular and powerful."
+    },
+    "abilities": [
+      {
+        "ability": "Superhuman strength",
+        "description": "Immense physical power capable of killing humans easily",
+        "frequency": "always",
+        "evidence_level": "mythological"
+      },
+      {
+        "ability": "Man-eating",
+        "description": "Consumed human sacrifices sent into the Labyrinth",
+        "frequency": "always",
+        "evidence_level": "mythological"
+      }
+    ],
+    "behavior": {
+      "activity_period": "unknown",
+      "disposition": "hostile",
+      "social_structure": "solitary",
+      "habitat_preference": [
+        "Labyrinth beneath Knossos",
+        "underground maze",
+        "darkness"
+      ],
+      "diet": "Human flesh (sacrifice victims)",
+      "patterns": [
+        "Imprisoned in Labyrinth",
+        "Fed with human sacrifices",
+        "Wandered the maze",
+        "Killed intruders"
+      ]
+    }
+  },
+
+  "distribution": {
+    "range": {
+      "description": "The Minotaur was confined to the Labyrinth beneath the palace at Knossos on the island of Crete.",
+      "continents": ["Europe (Mythological)"],
+      "regions": [
+        "Crete",
+        "Knossos",
+        "The Labyrinth"
+      ]
+    },
+    "temporal": {
+      "first_recorded": {
+        "date": "circa 8th century BCE",
+        "circa": true,
+        "source": "Early Greek literature"
+      },
+      "cultural_period": "Minoan/Greek Bronze Age (mythological)"
+    }
+  },
+
+  "history": {
+    "origins": {
+      "cultural_roots": "Greek mythology with possible connections to Minoan bull-worship and bull-leaping rituals. The myth may reflect memories of Cretan dominance over Athens.",
+      "earliest_accounts": "Homer, various early Greek sources, fully elaborated in later classical texts",
+      "folklore_connections": "Connected to Minoan civilization, bull cults, human sacrifice traditions, and labyrinth symbolism."
+    },
+    "mythological_timeline": [
+      {
+        "event": "Birth of the Minotaur",
+        "description": "Pasiphaë, cursed by Poseidon, mates with a sacred bull; gives birth to the Minotaur",
+        "significance": "Divine punishment for King Minos' impiety"
+      },
+      {
+        "event": "Construction of the Labyrinth",
+        "description": "Daedalus builds elaborate underground maze to imprison the Minotaur",
+        "significance": "Architectural marvel to contain the monster"
+      },
+      {
+        "event": "Athenian tribute established",
+        "description": "After Androgeos' death, Athens forced to send 7 youths and 7 maidens every 9 years",
+        "significance": "Cretan dominance over Athens"
+      },
+      {
+        "event": "Theseus volunteers",
+        "description": "Theseus joins the third tribute to attempt to kill the Minotaur",
+        "significance": "Hero's quest begins"
+      },
+      {
+        "event": "Ariadne's thread",
+        "description": "Princess Ariadne falls in love with Theseus, gives him thread to navigate the Labyrinth",
+        "significance": "Enables escape from the maze"
+      },
+      {
+        "event": "Death of the Minotaur",
+        "description": "Theseus enters the Labyrinth, finds and kills the Minotaur, escapes via the thread",
+        "significance": "End of the tribute, Athens freed from Cretan domination"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "circa 8th century BCE",
+        "event": "Early Greek references",
+        "significance": "Minotaur appears in early Greek literature",
+        "source": "Homer, early poets"
+      },
+      {
+        "date": "5th century BCE",
+        "event": "Classical Greek elaboration",
+        "significance": "Full myth codified in Athenian drama and art",
+        "source": "Euripides, vase paintings"
+      },
+      {
+        "date": "1st century CE",
+        "event": "Roman retellings",
+        "significance": "Ovid and others provide detailed accounts",
+        "source": "Ovid's Metamorphoses, Apollodorus"
+      },
+      {
+        "date": "1900 CE",
+        "event": "Discovery of Knossos",
+        "significance": "Archaeological excavation reveals palace complex resembling a labyrinth",
+        "source": "Sir Arthur Evans"
+      }
+    ],
+    "modern_era": "The Minotaur remains a powerful symbol in Western culture, representing the beast within, impossible challenges, and labyrinthine complexity. Archaeological discoveries at Knossos have reinforced connections between myth and Minoan culture."
+  },
+
+  "symbolism": {
+    "ancient": [
+      "Bestial nature vs. civilization",
+      "Dark secret hidden away",
+      "Impossible challenge overcome by hero",
+      "Cretan power over Athens",
+      "Consequences of divine punishment",
+      "Labyrinthine complexity"
+    ],
+    "modern": [
+      "The beast within / inner demons",
+      "Confronting one's darkest fears",
+      "Navigating complexity and confusion",
+      "The price of hubris",
+      "Victim of circumstance (modern sympathetic readings)"
+    ]
+  },
+
+  "archaeological_connections": {
+    "knossos": {
+      "description": "Palace complex at Knossos excavated by Sir Arthur Evans (1900-1905)",
+      "significance": "Complex, multi-level structure with winding corridors may have inspired labyrinth myth",
+      "features": [
+        "Intricate floor plan",
+        "Multiple levels",
+        "Numerous rooms and corridors",
+        "Bull motifs throughout (frescoes, horns)"
+      ]
+    },
+    "minoan_culture": {
+      "bull_worship": "Central to Minoan religion; bull symbolism abundant",
+      "bull_leaping": "Dangerous ritual sport depicted in frescoes",
+      "possible_origins": "Myth may reflect memories of Minoan bull rituals and Cretan dominance"
+    }
+  },
+
+  "cultural": {
+    "folklore": {
+      "traditions": [
+        "Athenian triumph over Cretan power",
+        "Hero's journey through labyrinth",
+        "Monster slaying as rite of passage"
+      ],
+      "stories": [
+        "Theseus and the Minotaur",
+        "Ariadne's thread",
+        "Daedalus and Icarus (connected story)",
+        "Pasiphaë and the bull"
+      ],
+      "beliefs": "Symbol of the triumph of reason and heroism over bestial nature and chaos."
+    },
+    "ancient_greek": {
+      "significance": "Central myth in Athenian identity, representing liberation from foreign domination",
+      "symbolism": [
+        "Heroic virtue",
+        "Athenian superiority",
+        "Overcoming impossible odds",
+        "The power of cunning (Ariadne's thread)"
+      ],
+      "artistic_depictions": "Extremely common on Greek pottery, sculpture, and mosaics"
+    },
+    "popular_culture": {
+      "literature": [
+        "Dante's Inferno (Minotaur guards Circle of Violence)",
+        "Jorge Luis Borges' 'The House of Asterion' (1947)",
+        "Mary Renault's 'The King Must Die' (1958)",
+        "Rick Riordan's Percy Jackson series"
+      ],
+      "film_tv": [
+        "Immortals (2011)",
+        "Percy Jackson & the Olympians",
+        "Doctor Who ('The Horns of Nimon')",
+        "Wrath of the Titans (2012)"
+      ],
+      "art": [
+        "Pablo Picasso's Minotaur series",
+        "Numerous classical paintings and sculptures",
+        "Modern fantasy art"
+      ],
+      "games": [
+        "God of War series",
+        "Assassin's Creed Odyssey",
+        "Dungeons & Dragons",
+        "Age of Mythology",
+        "Hades (Supergiant Games)"
+      ],
+      "other": [
+        "Labyrinth designs and mazes",
+        "Symbol of complex problems ('labyrinthine')",
+        "Heavy metal band imagery"
+      ]
+    }
+  },
+
+  "sources": [
+    {
+      "id": "ovid-metamorphoses",
+      "type": "ancient_text",
+      "title": "Metamorphoses",
+      "authors": ["Ovid"],
+      "date": "8 CE",
+      "description": "Book 8: Detailed account of Minotaur myth"
+    },
+    {
+      "id": "apollodorus-bibliotheca",
+      "type": "ancient_text",
+      "title": "Bibliotheca",
+      "authors": ["Apollodorus"],
+      "date": "1st-2nd century CE",
+      "description": "Comprehensive mythological account"
+    },
+    {
+      "id": "plutarch-theseus",
+      "type": "ancient_text",
+      "title": "Life of Theseus",
+      "authors": ["Plutarch"],
+      "date": "circa 100 CE",
+      "description": "Biography of Theseus including Minotaur episode"
+    },
+    {
+      "id": "evans-1921",
+      "type": "book",
+      "title": "The Palace of Minos at Knossos",
+      "authors": ["Sir Arthur Evans"],
+      "publication": "Macmillan",
+      "date": "1921-1935",
+      "description": "Archaeological excavation of Knossos"
+    },
+    {
+      "id": "kerényi-1976",
+      "type": "book",
+      "title": "Dionysos: Archetypal Image of Indestructible Life",
+      "authors": ["Karl Kerényi"],
+      "publication": "Princeton University Press",
+      "date": "1976",
+      "isbn": "978-0691097565"
+    }
+  ]
+}
